@@ -1,58 +1,56 @@
-"use strict";
-
-exports.screenX = function (e) {
+export var screenX = function (e) {
   return e.screenX;
 };
 
-exports.screenY = function (e) {
+export var screenY = function (e) {
   return e.screenY;
 };
 
-exports.clientX = function (e) {
+export var clientX = function (e) {
   return e.clientX;
 };
 
-exports.clientY = function (e) {
+export var clientY = function (e) {
   return e.clientY;
 };
 
-exports.pageX = function (e) {
+export var pageX = function (e) {
   return e.pageX;
 };
 
-exports.pageY = function (e) {
+export var pageY = function (e) {
   return e.pageY;
 };
 
-exports.ctrlKey = function (e) {
+export var ctrlKey = function (e) {
   return e.ctrlKey;
 };
 
-exports.shiftKey = function (e) {
+export var shiftKey = function (e) {
   return e.shiftKey;
 };
 
-exports.altKey = function (e) {
+export var altKey = function (e) {
   return e.altKey;
 };
 
-exports.metaKey = function (e) {
+export var metaKey = function (e) {
   return e.metaKey;
 };
 
-exports.button = function (e) {
+export var button = function (e) {
   return e.button;
 };
 
-exports._relatedTarget = function (e) {
+export var _relatedTarget = function (e) {
   return e.relatedTarget;
 };
 
-exports.buttons = function (e) {
+export var buttons = function (e) {
   return e.buttons;
 };
 
-exports.getModifierState = function (s) {
+export var getModifierState = function (s) {
   return function (e) {
     return function () {
       return e.getModifierState(s);

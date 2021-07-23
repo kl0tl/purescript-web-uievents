@@ -1,9 +1,7 @@
-"use strict";
-
-exports.data_ = function (e) {
+export var data_ = function (e) {
   return e.data;
 };
 
-exports.isComposing = function (e) {
+export var isComposing = function (e) {
   return e.isComposing;
 };
